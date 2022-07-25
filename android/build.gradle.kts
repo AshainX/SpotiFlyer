@@ -96,7 +96,7 @@ dependencies {
     implementation(project(":common:data-models"))
     implementation(project(":common:core-components"))
     implementation(project(":common:providers"))
-
+    implementation(project(":common:dataset"))
     with(deps) {
 
         // Koin
