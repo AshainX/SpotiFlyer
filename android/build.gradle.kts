@@ -124,6 +124,8 @@ dependencies {
 
         // Test
         testImplementation(junit)
+        testImplementation(minSdkVersion)
+        testImplementation(expresso)
         androidTestImplementation(androidx.junit)
         androidTestImplementation(androidx.expresso)
 
